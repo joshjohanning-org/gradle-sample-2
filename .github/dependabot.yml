@@ -3,6 +3,10 @@ updates:
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "gradle"
+    directory: "gradle-example/app"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
